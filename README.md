@@ -12,9 +12,6 @@ Carte interactive présentant les différents transporteurs exploitant des ligne
   - Nombre de validations
 - 🗺️ Image comparative des DSP en overlay
 
-  Remarque: les transporteurs RATP et RC (Ratp CAP IDF) partagent une couleur similaire car ils appartiennent aux même groupe.
-  Le transporteur "RD" (RATP Dev) correspond à "RC" dans la légende car c'est bien RATP CAP qui gère les filiales gagnés par le groupe RATP en IdF. 
-
 ## Données
 
 Les données utilisées proviennent d'IDFM (Île-de-France Mobilités) et reflètent la situation en Octobre 2024.
@@ -29,9 +26,12 @@ Les données utilisées proviennent d'IDFM (Île-de-France Mobilités) et reflè
 Les opérateurs sont regroupés en 5 catégories principales :
 - **Francilité**
 - **Keolis**
-- **RD** (RATP Dev)
+- **RC** (RATP Cap IDF)
 - **RATP**
 - **Transdev**
+
+  **Remarque**: les transporteurs RATP et RC (Ratp CAP IDF) partagent une couleur similaire car ils appartiennent aux même groupe.
+  Le transporteur "RD" (RATP Dev) correspond à "RC" dans la légende car c'est bien RATP CAP qui gère les filiales gagnés par le groupe RATP en IdF. 
 
 ### Traitement des données
 - Pour les communes desservies par plusieurs transporteurs, seul le transporteur réalisant le plus grand nombre de validations est affiché
