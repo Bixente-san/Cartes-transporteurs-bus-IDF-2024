@@ -12,6 +12,9 @@ Carte interactive présentant les différents transporteurs exploitant des ligne
   - Nombre de validations
 - 🗺️ Image comparative des DSP en overlay
 
+  Remarque: les transporteurs RATP et RC (Ratp CAP IDF) partagent une couleur similaire car ils appartiennent aux même groupe.
+  Le transporteur "RD" (RATP Dev) correspond à "RC" dans la légende car c'est bien RATP CAP qui gère les filiales gagnés par le groupe RATP en IdF. 
+
 ## Données
 
 Les données utilisées proviennent d'IDFM (Île-de-France Mobilités) et reflètent la situation en Octobre 2024.
@@ -41,14 +44,8 @@ Les opérateurs sont regroupés en 5 catégories principales :
 - **GeoPandas** - Manipulation des données géographiques
 - **GitHub Pages** - Hébergement et partage
 
-## Installation et utilisation locale
 
 ```python
 # Cloner le repository
 git clone https://github.com/bixente-san/Cartes-transporteurs-bus-IDF-2024.git
 
-# Installer les dépendances
-pip install -r requirements.txt
-
-# Exécuter le script
-python generate_map.py
