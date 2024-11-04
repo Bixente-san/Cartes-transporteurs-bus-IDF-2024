@@ -1,6 +1,6 @@
-# Carte des Transporteurs Bus en Île-de-France 2024
+# Carte des Transporteurs Bus et Tram en Île-de-France 2024
 
-Carte interactive présentant les différents transporteurs de bus en Île-de-France, basée sur les données de validation 2024.
+Carte interactive présentant les différents transporteurs exploitant des lignes de bus et de tramway en Île-de-France, basée sur les données de validation 2024.
 
 ## Fonctionnalités
 
