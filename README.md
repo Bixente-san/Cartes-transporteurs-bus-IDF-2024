@@ -5,12 +5,10 @@ Carte interactive présentant les différents transporteurs exploitant des ligne
 ## Fonctionnalités
 
 - 🚌 Visualisation par groupes de transporteurs
-- 📊 Données de validation par commune
+- 📊 Basé sur les données de validation par commune
 - 🔍 Popups informatifs détaillés :
   - Population de la commune
   - Transporteur principal
-  - Nombre de validations
-- 🗺️ Image comparative des DSP en overlay
 
 ## Données
 
